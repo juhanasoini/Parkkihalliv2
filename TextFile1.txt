@@ -1,0 +1,19 @@
+﻿Ohjeet löytyvät sovelluksesta kun sen käynnistää
+Testaussuunnitelma
+1. parkkeeraa auto tai kaksi
+2. parkkeeraa moottoripyörä tai kaksi
+3. Jätä fillari tai kaksi
+4. Listaa parkkeeratut autot -> pitäisi näkyä listana kaikki hallissa olevat ruudut, jos ruudussa ei ole ajoneuvoa pitäisi ruudussa lukea VAPAA
+5. Sulje ohjelma 
+6. Avaa ohjelma
+7. Listaa parkkeeratut ajoneuvot -> pitäisi näkyä listana kaikki hallissa olevat ruudut, jos ruudussa ei ole ajoneuvoa pitäisi ruudussa lukea VAPAA
+8. Nouda parkkeerattu ajoneuvo
+9. Listaa parkkeeratut autot -> pitäisi näkyä listana kaikki hallissa olevat ruudut, jos ruudussa ei ole ajoneuvoa pitäisi ruudussa lukea VAPAA, listalla ei pitäisi näkyä noudettua ajoneuvoa
+10. Listaa fillarit -> pitäisi näkyä jätetyt fillarit
+11. Nouda fillari
+12. Listaa fillarit -> pitäisi näkyä jätetyt fillarit, listalla ei pitäisi näkyä noudettua fillaria
+13. Sulje ohjelma
+14. Avaa ohjelma
+15. Listaa parkkihallin sisällöt -> listoilla pitäisi näkyä hallissa olevat ajoneuvot ja fillarit, ei pitäisi näkyä aiemmin noudettuja
+
+
