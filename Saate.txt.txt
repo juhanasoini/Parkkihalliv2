@@ -1,0 +1,21 @@
+﻿Osaamismatriisi
+Olio 1: Parkkihalli.cs rivi 19
+Olio 2: Parkkihalli.cs rivi 18
+Olio 3: Parkkeeraaja.cs alkaen riviltä 6
+Olio 4: Parkkeeraaja.cs rivit 8-11
+Olio 5: Moottoriajoneuvo.cs
+
+Luokkarakenne 1: Moottoriajoneuvo.cs
+Luokkarakenne 2: Parkkipaikka.cs rivi 10
+Luokkarakenne 3: Parkkihalli.cs rivi 18
+Luokkarakenne 4: Auto.cs
+Luokkarakenne 5: Auto.cs rivi 20
+
+Rajapinnat 1: Rajapinnat/iAjoneuvo.cs
+Rajapinnat 2: Moottoriajoneuvo.cs
+Rajapinnat 3: Auto.cs
+Rajapinnat 4: Rajapinnat/iAjoneuvo.cs
+
+Tallentaminen: 1 Parkkihalli.cs rivi 24
+Tallentaminen 3-5: Parkkihalli.cs rivit 86-162
+
