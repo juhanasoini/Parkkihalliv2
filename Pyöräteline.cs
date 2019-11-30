@@ -1,11 +1,8 @@
-﻿using System;
-using System.IO;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json;
 using System.IO;
-using Newtonsoft.Json.Serialization;
+using System.Linq;
 
 namespace Parkkihalli
 {
@@ -62,7 +59,6 @@ namespace Parkkihalli
         /// </summary>
         public void tallennaFillarit()
         {
-            //https://stackoverflow.com/questions/46057081/json-newtonsoft-c-sharp-deserialize-list-of-objects-of-different-types
             KnownTypesBinder loKnownTypesBinder = new KnownTypesBinder()
             {
                 KnownTypes = new List<Type> { typeof(Polkupyora) }

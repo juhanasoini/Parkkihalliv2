@@ -85,7 +85,6 @@ namespace Parkkihalli
         // Tallentaa ruudut tiedostoon
         public void tallennaParkkipaikat()
         {
-            //https://stackoverflow.com/questions/46057081/json-newtonsoft-c-sharp-deserialize-list-of-objects-of-different-types
             KnownTypesBinder loKnownTypesBinder = new KnownTypesBinder()
             {
                 KnownTypes = new List<Type> { typeof(Auto), typeof(Moottoripyora) }

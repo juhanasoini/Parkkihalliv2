@@ -1,4 +1,9 @@
-﻿Osaamismatriisi
+﻿https://github.com/juhanasoini/Parkkihalliv2
+
+Ohjelma esittää pientä parkkihallia johon voi jättää auton, moottoripyörän tai polkupyörän. (Polkupyörän jättö omalla vastuulla) Jätetyn asian voi noutaa pois myöhemmin. 
+Parkkihallin sisältöä hallitaan tallentamalla datat JSON muodossa tiedostoihin
+
+Osaamismatriisi
 Olio 1: Parkkihalli.cs rivi 19
 Olio 2: Parkkihalli.cs rivi 18
 Olio 3: Parkkeeraaja.cs alkaen riviltä 6
