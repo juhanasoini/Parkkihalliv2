@@ -1,0 +1,8 @@
+Parkkihalli, vaatimusmäärittely
+Sovelluksen pitää pystyä vastaanottamaan parkkihalliin ajettava auto. 
+Autosta tallennetaan tunnusmerkit, minimissään merkki ja malli. Parkkeerauksen aloiteuksesta merkitään aikaleima.
+Auto pitää voida noutaa parkkiruudun numerolla.
+
+Halliin pitää voida jättää myös muutama polkupyörä. Polkupyörä pitää myös voida noutaa.
+
+Hallin status pitää voida tarkistaa. Eli mitkä ruudut ovat vapaita/varattuja.
