@@ -66,7 +66,19 @@ namespace Parkkihalli
                 Console.WriteLine("Kulunut aika {0} tuntia", parkkipaikka.kulunutAika());
                 Console.WriteLine("Parkkeerauksen hinta on {0} €", parkkipaikka.laskeHinta());
                 Console.Write("Kaiva kuvetta[y/n]: ");
-                komento = Console.ReadLine();
+
+                // *** Start changes
+                // impeding that a real string is entered
+                // read a char with ReadLine() 
+                // and use ToString() to convert a char in string
+                
+                // old code komento = Console.ReadLine();
+                
+                komento = Console.ReadKey().ToString();
+                // added to 
+                komento = komento.ToUpperInvariant();
+                // *** End changes
+
                 if (komento == "n")
                 {
                     Console.WriteLine("Parkkihalli pitää ajoneuvon!\n");

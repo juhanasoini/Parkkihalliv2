@@ -106,6 +106,11 @@ namespace Parkkihalli
                             while (vastaus != "K" && vastaus != "E")
                             {
                                 vastaus = Console.ReadLine();
+                                // I crashed the program adding a " to the input - 
+                                // the bug can be removed using vastaus = vastaus.Trim();
+
+                                // Making it comparable also iuf imput on "k" and "e"
+                                vastaus = vastaus.ToUpperInvariant();
                             }
                             if (vastaus == "K")
                                 Console.WriteLine("Sepäs sattui");

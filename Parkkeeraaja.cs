@@ -36,8 +36,16 @@ namespace Parkkihalli
                 Console.WriteLine("[a] auto\n"
                                 + "[m] moottoripyörä\n");
 
-                Console.Write("Anna ajoneuvon tyyppi: ");
+                //old code: Console.Write("Anna ajoneuvon tyyppi: ");
+
+                // Continuosly inserting "bmw" as input
+                Console.Write("Anna ajoneuvon tyyppi [a / m]: ");
+
                 tyyppi = Console.ReadLine();
+
+                // Making lowerChar imput valid too
+                // Old code: nothing
+                tyyppi = tyyppi.ToUpperInvariant();
             }
 
             switch (tyyppi)
