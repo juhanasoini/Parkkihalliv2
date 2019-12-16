@@ -1,0 +1,31 @@
+### Parkkihalli 1.0 TM  ###
+Sovellus parkkihallien hallintaan. Ohjelma mahdollistaa 10 auton ja 5 polkupyörän parkkerauksen halliin. 
+Auton hinta per alkava tunti on 5€
+Polkupyörän oleilu on ilmaista.
+
+Käynnistä sovellus.
+
+Käynnistyksen jälkeen sovellus näyttää päätason ohjeet:
+|-------------------------------|
+| [p]  = parkkeeraa auto        |
+| [f]  = jätä fillari           |
+| [n]  = nouda auto             |
+| [nf] = nouda fillari          |
+| [l]  = listaa autot           |
+| [lf] = listaa fillarit        |
+| [t]  = listaa autot tarkemmin |
+| [o]  = näytä ohjeet           |
+|-------------------------------| 
+
+Anna ruudulle haluamaasi toimintoa vastaava kirjain ja paina ENTER;
+Toiminnot ohjaavat käyttäjää. 
+
+Auton parkkeerauksessa kysytään auton merkki ja malli. Käyttäjälle annetaan tiedoksi ruutu johon auton sijoitettiin.
+Fillaria jätettäessä kysytään pyörän merkki ja malli.
+
+Autoa noudettaessa tulee ohjelmalle antaa ruutu (numero) josta auto noudetaan. Hallissa olevat autot ja niiden ruudut voi tarkistaa antamalla kirjaimen l.
+Jos annetusta ruudusta löytyy auto vahvistetaan parkkiajan maksu. Jos maksu suoritetaan onnistuneesti auto palautetaan omistajalle pestynä.
+
+Fillaria noudettaessa tulee antaa paikka (numero) jolle polkupyörä jätettiin. Hakija saa kuitenkin takaisin sattumanvaraisen fillarin telineestä. Kaikki ei vain voi toimia ideaalisti.
+
+Antamalla päänäkymässä kirjaimen c, sovellus sulkeutuu.
